@@ -1,0 +1,400 @@
+2018-05-13 22:59:54,909 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-13 22:59:54,910 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-13 23:14:54,335 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-13 23:14:54,335 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-13 23:14:55,533 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-13 23:14:55,533 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 12:16:11,524 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 12:16:11,524 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 14:47:42,526 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 14:47:42,526 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 14:48:53,718 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 14:48:53,718 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 16:16:13,428 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 16:16:13,429 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 16:17:24,572 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 16:17:24,572 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:21:53,510 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:21:53,510 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:23:04,820 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:23:04,820 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:29:43,697 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:29:43,697 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:30:54,886 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:30:54,886 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:42:10,857 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:42:10,857 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:43:22,050 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:43:22,050 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:54:53,176 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:54:53,176 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-14 23:56:04,447 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-14 23:56:04,447 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 00:25:45,542 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 00:25:45,542 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 00:26:56,685 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 00:26:56,685 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 02:07:01,111 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 02:07:01,112 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 02:08:12,262 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 02:08:12,263 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 05:16:21,111 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 05:16:21,111 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 05:17:32,206 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 05:17:32,206 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 07:04:01,160 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 07:04:01,160 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 07:05:12,437 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 07:05:12,437 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 08:49:46,025 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 08:49:46,025 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 08:50:57,205 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 08:50:57,206 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 10:20:57,973 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 10:20:57,973 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 10:22:09,101 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 10:22:09,102 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 11:38:31,922 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 11:38:31,922 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 11:39:43,089 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 11:39:43,090 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 12:32:02,279 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 12:32:02,280 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 12:33:13,490 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 12:33:13,490 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 13:35:56,375 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 13:35:56,375 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 13:37:07,580 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 13:37:07,580 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 14:10:41,714 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 14:10:41,714 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 14:11:52,888 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 14:11:52,888 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 14:14:35,581 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 14:14:35,581 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 14:15:46,737 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 14:15:46,737 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 14:45:29,909 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 14:45:29,909 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+2018-05-15 14:46:41,110 - DEBUG - Exception ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export") ignored
+2018-05-15 14:46:41,110 - ERROR - ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")
+Traceback (most recent call last):
+  File "common/device_connection.py", line 110, in config
+    self.config_handle.load(stmt, format='set', merge=True)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 377, in load
+    return try_load(rpc_contents, rpc_xattrs)
+  File "/usr/lib/python2.7/site-packages/jnpr/junos/utils/config.py", line 343, in try_load
+    raise ConfigLoadError(cmd=err.cmd, rsp=err.rsp, errs=err.errs)
+ConfigLoadError: ConfigLoadError(severity: warning, bad_element: None, message: statement not found: export "test1-export")

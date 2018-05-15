@@ -1,0 +1,434 @@
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 20958
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 1 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 1 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-2 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 20968
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 2 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 2 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-3 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 20978
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 3 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 3 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Agg 0 clear/reset partition 20 done
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Newer KafkaClient -uve-20
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 20993
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 4 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 4 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Acquired lock for:22
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition List : new set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]) old set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21])
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition Add : set([22])
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21007
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 5 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 5 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Acquired lock for:23
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition List : new set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]) old set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22])
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition Add : set([23])
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21021
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 6 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 6 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Agg 0 clear/reset partition 21 done
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Newer KafkaClient -uve-21
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21036
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 7 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 7 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Acquired lock for:24
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition List : new set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]) old set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23])
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition Add : set([24])
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21064
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 8 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 8 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-9 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21074
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 9 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 9 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Agg 0 clear/reset partition 24 done
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Newer KafkaClient -uve-24
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21093
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 10 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 10 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-11 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21103
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 11 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 11 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Acquired lock for:27
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition List : new set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]) old set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26])
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition Add : set([27])
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21122
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 12 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 12 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Acquired lock for:28
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition List : new set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]) old set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27])
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition Add : set([28])
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21146
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 13 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 13 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Acquired lock for:29
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition List : new set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]) old set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28])
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Partition Add : set([29])
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21160
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 14 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 14 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-15 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21170
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 15 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 15 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Agg 0 clear/reset partition 28 done
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Newer KafkaClient -uve-28
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21185
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 16 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 16 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Agg 0 clear/reset partition 29 done
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Newer KafkaClient -uve-29
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21200
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 17 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 17 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-18 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21210
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 18 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 18 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-19 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21220
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 19 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 19 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-20 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21230
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 20 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 20 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-21 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21240
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 21 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 21 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-22 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21250
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 22 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 22 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-23 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21260
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 23 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 23 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-24 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21270
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 24 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 24 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-25 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21280
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 25 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 25 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-26 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21290
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 26 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 26 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-27 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21300
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 27 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 27 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-28 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21310
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 28 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 28 UVEs []
+05/08/2018 12:01:06 PM [kafka.conn]: Connect attempt to <BrokerConnection host=5.5.5.232/5.5.5.232 port=9092> returned error 111. Disconnecting.
+05/08/2018 12:01:06 PM [kafka.client]: Unable to bootstrap from [('5.5.5.232', 9092, 2)]
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: -uve-29 An exception of type NameError occured. Arguments:
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21320
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 29 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 29 UVEs []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Analytics Discovery AlarmGenerator reconnect
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: ensure /analytics-discovery-/AlarmGenerator
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: zk state CONNECTED (CONNECTED)
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log.3, Line: 21360
+("global name 'slef' is not defined",) : traceback Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/opserver/partition_handler.py", line 732, in _run
+    if slef.part_prev_time == 0 or self.part_cur_time - self.part_prev_time > 60:
+NameError: global name 'slef' is not defined
+
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 0 collectors []
+05/08/2018 12:01:06 PM [contrail-alarm-gen]: Stopping part 0 UVEs []
+05/08/2018 12:01:07 PM [contrail-alarm-gen]: ensure /analytics-discovery-/AlarmGenerator
+05/08/2018 12:01:07 PM [contrail-alarm-gen]: zk state CONNECTED (CONNECTED)
+05/08/2018 12:01:07 PM [contrail-alarm-gen]: check for /analytics-discovery-/AlarmGenerator/5b3s45-0
+...
+...
+--------------------------------------------------------------------------------
+File: /var/log/contrail/contrail-alarm-gen.log, Line: 2
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/kafka/future.py", line 79, in _call_backs
+    f(value)
+  File "/usr/lib/python2.7/site-packages/kafka/producer/sender.py", line 185, in _failed_produce
+    self._complete_batch(batch, error, -1, None)
+  File "/usr/lib/python2.7/site-packages/kafka/producer/sender.py", line 243, in _complete_batch
+    self._accumulator.deallocate(batch)
+  File "/usr/lib/python2.7/site-packages/kafka/producer/record_accumulator.py", line 499, in deallocate
+    self._incomplete.remove(batch)
+  File "/usr/lib/python2.7/site-packages/kafka/producer/record_accumulator.py", line 576, in remove
+...
+...
+--------------------------------------------------------------------------------

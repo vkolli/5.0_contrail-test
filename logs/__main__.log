@@ -1,0 +1,525 @@
+2018-05-13 22:52:12,533 - DEBUG - [10.87.64.157]: Running cmd : hostname
+2018-05-13 22:52:12,800 - DEBUG - Output : 5b4s30
+2018-05-13 22:52:12,800 - DEBUG - [10.87.64.157]: Running cmd : hostname -f
+2018-05-13 22:52:12,883 - DEBUG - Output : 5b4s30.local
+2018-05-13 22:52:12,884 - DEBUG - [10.87.64.157]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-13 22:52:12,967 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-13 22:52:12,968 - DEBUG - [10.87.64.157]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-13 22:52:13,067 - DEBUG - Output : 10.87.64.157/25
+5.5.5.233/24
+2018-05-13 22:52:13,067 - DEBUG - [10.87.64.158]: Running cmd : hostname
+2018-05-13 22:52:13,262 - DEBUG - Output : 5b4s39
+2018-05-13 22:52:13,262 - DEBUG - [10.87.64.158]: Running cmd : hostname -f
+2018-05-13 22:52:13,361 - DEBUG - Output : 5b4s39.local
+2018-05-13 22:52:13,361 - DEBUG - [10.87.64.158]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-13 22:52:13,493 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_vrouter-agent-dpdk_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-13 22:52:13,493 - DEBUG - [10.87.64.158]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-13 22:52:13,544 - DEBUG - Output : 10.87.64.158/25
+5.5.5.234/24
+2018-05-13 22:52:13,545 - DEBUG - [10.87.64.147]: Running cmd : hostname
+2018-05-13 22:52:13,816 - DEBUG - Output : 5b3s45
+2018-05-13 22:52:13,816 - DEBUG - [10.87.64.147]: Running cmd : hostname -f
+2018-05-13 22:52:13,924 - DEBUG - Output : 5b3s45.local
+2018-05-13 22:52:13,924 - DEBUG - [10.87.64.147]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-13 22:52:14,051 - DEBUG - Output : NAMES
+contrail_test_55JcBQ2qe
+analytics_snmp-collector_1
+analytics_topology_1
+analytics_alarm-gen_1
+analytics_api_1
+analytics_collector_1
+analytics_query-engine_1
+analytics_nodemgr_1
+analyticsdatabase_nodemgr_1
+analyticsdatabase_zookeeper_1
+analyticsdatabase_cassandra_1
+analyticsdatabase_kafka_1
+control_named_1
+control_dns_1
+control_control_1
+control_nodemgr_1
+webui_web_1
+webui_job_1
+config_schema_1
+config_nodemgr_1
+config_api_1
+config_devicemgr_1
+config_svcmonitor_1
+configdatabase_zookeeper_1
+configdatabase_cassandra_1
+configdatabase_rabbitmq_1
+redis_redis_1
+barbican_worker
+barbican_keystone_listener
+barbican_api
+horizon
+heat_engine
+heat_api_cfn
+heat_api
+neutron_metadata_agent
+neutron_server
+nova_novncproxy
+nova_consoleauth
+nova_conductor
+nova_scheduler
+nova_api
+placement_api
+glance_registry
+glance_api
+keystone
+rabbitmq
+mariadb
+memcached
+keepalived
+haproxy
+cron
+kolla_toolbox
+fluentd
+2018-05-13 22:52:14,052 - DEBUG - [10.87.64.147]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-13 22:52:14,220 - DEBUG - Output : 5.5.5.232/24
+10.87.64.147/25
+2018-05-13 22:52:18,176 - DEBUG - Container controller not in host 5.5.5.232, running on  host itself
+2018-05-13 22:52:18,177 - DEBUG - [5.5.5.232]: Running cmd : 
+            if [ -f /etc/lsb-release ]; then (cat /etc/lsb-release | grep DISTRIB_DESCRIPTION | cut -d "=" -f2 )
+            else
+                cat /etc/redhat-release | sed s/\(Final\)//
+            fi
+            
+2018-05-13 22:52:18,427 - DEBUG - Output : CentOS Linux release 7.4.1708 (Core)
+2018-05-13 22:53:22,876 - DEBUG - [10.87.64.157]: Running cmd : hostname
+2018-05-13 22:53:23,169 - DEBUG - Output : 5b4s30
+2018-05-13 22:53:23,170 - DEBUG - [10.87.64.157]: Running cmd : hostname -f
+2018-05-13 22:53:23,268 - DEBUG - Output : 5b4s30.local
+2018-05-13 22:53:23,269 - DEBUG - [10.87.64.157]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-13 22:53:23,352 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-13 22:53:23,353 - DEBUG - [10.87.64.157]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-13 22:53:23,452 - DEBUG - Output : 10.87.64.157/25
+5.5.5.233/24
+2018-05-13 22:53:23,452 - DEBUG - [10.87.64.158]: Running cmd : hostname
+2018-05-13 22:53:23,642 - DEBUG - Output : 5b4s39
+2018-05-13 22:53:23,643 - DEBUG - [10.87.64.158]: Running cmd : hostname -f
+2018-05-13 22:53:23,742 - DEBUG - Output : 5b4s39.local
+2018-05-13 22:53:23,742 - DEBUG - [10.87.64.158]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-13 22:53:23,873 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_vrouter-agent-dpdk_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-13 22:53:23,874 - DEBUG - [10.87.64.158]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-13 22:53:23,924 - DEBUG - Output : 10.87.64.158/25
+5.5.5.234/24
+2018-05-13 22:53:23,925 - DEBUG - [10.87.64.147]: Running cmd : hostname
+2018-05-13 22:53:24,158 - DEBUG - Output : 5b3s45
+2018-05-13 22:53:24,159 - DEBUG - [10.87.64.147]: Running cmd : hostname -f
+2018-05-13 22:53:24,258 - DEBUG - Output : 5b3s45.local
+2018-05-13 22:53:24,258 - DEBUG - [10.87.64.147]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-13 22:53:24,397 - DEBUG - Output : NAMES
+contrail_test_55JcBQ2qe
+analytics_snmp-collector_1
+analytics_topology_1
+analytics_alarm-gen_1
+analytics_api_1
+analytics_collector_1
+analytics_query-engine_1
+analytics_nodemgr_1
+analyticsdatabase_nodemgr_1
+analyticsdatabase_zookeeper_1
+analyticsdatabase_cassandra_1
+analyticsdatabase_kafka_1
+control_named_1
+control_dns_1
+control_control_1
+control_nodemgr_1
+webui_web_1
+webui_job_1
+config_schema_1
+config_nodemgr_1
+config_api_1
+config_devicemgr_1
+config_svcmonitor_1
+configdatabase_zookeeper_1
+configdatabase_cassandra_1
+configdatabase_rabbitmq_1
+redis_redis_1
+barbican_worker
+barbican_keystone_listener
+barbican_api
+horizon
+heat_engine
+heat_api_cfn
+heat_api
+neutron_metadata_agent
+neutron_server
+nova_novncproxy
+nova_consoleauth
+nova_conductor
+nova_scheduler
+nova_api
+placement_api
+glance_registry
+glance_api
+keystone
+rabbitmq
+mariadb
+memcached
+keepalived
+haproxy
+cron
+kolla_toolbox
+fluentd
+2018-05-13 22:53:24,398 - DEBUG - [10.87.64.147]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-13 22:53:24,497 - DEBUG - Output : 5.5.5.232/24
+10.87.64.147/25
+2018-05-13 22:53:28,711 - DEBUG - Container controller not in host 5.5.5.232, running on  host itself
+2018-05-13 22:53:28,711 - DEBUG - [5.5.5.232]: Running cmd : 
+            if [ -f /etc/lsb-release ]; then (cat /etc/lsb-release | grep DISTRIB_DESCRIPTION | cut -d "=" -f2 )
+            else
+                cat /etc/redhat-release | sed s/\(Final\)//
+            fi
+            
+2018-05-13 22:53:28,988 - DEBUG - Output : CentOS Linux release 7.4.1708 (Core)
+2018-05-14 02:20:55,006 - DEBUG - [10.87.64.157]: Running cmd : hostname
+2018-05-14 02:20:55,283 - DEBUG - Output : 5b4s30
+2018-05-14 02:20:55,283 - DEBUG - [10.87.64.157]: Running cmd : hostname -f
+2018-05-14 02:20:55,365 - DEBUG - Output : 5b4s30.local
+2018-05-14 02:20:55,366 - DEBUG - [10.87.64.157]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-14 02:20:55,449 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-14 02:20:55,449 - DEBUG - [10.87.64.157]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-14 02:20:55,547 - DEBUG - Output : 10.87.64.157/25
+5.5.5.233/24
+2018-05-14 02:20:55,548 - DEBUG - [10.87.64.158]: Running cmd : hostname
+2018-05-14 02:20:55,730 - DEBUG - Output : 5b4s39
+2018-05-14 02:20:55,731 - DEBUG - [10.87.64.158]: Running cmd : hostname -f
+2018-05-14 02:20:55,829 - DEBUG - Output : 5b4s39.local
+2018-05-14 02:20:55,829 - DEBUG - [10.87.64.158]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-14 02:20:55,960 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_vrouter-agent-dpdk_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-14 02:20:55,961 - DEBUG - [10.87.64.158]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-14 02:20:56,011 - DEBUG - Output : 10.87.64.158/25
+5.5.5.234/24
+2018-05-14 02:20:56,012 - DEBUG - [10.87.64.147]: Running cmd : hostname
+2018-05-14 02:20:56,267 - DEBUG - Output : 5b3s45
+2018-05-14 02:20:56,267 - DEBUG - [10.87.64.147]: Running cmd : hostname -f
+2018-05-14 02:20:56,366 - DEBUG - Output : 5b3s45.local
+2018-05-14 02:20:56,367 - DEBUG - [10.87.64.147]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-14 02:20:56,507 - DEBUG - Output : NAMES
+contrail_test_55JcBQ2qe
+analytics_snmp-collector_1
+analytics_topology_1
+analytics_alarm-gen_1
+analytics_api_1
+analytics_collector_1
+analytics_query-engine_1
+analytics_nodemgr_1
+analyticsdatabase_nodemgr_1
+analyticsdatabase_zookeeper_1
+analyticsdatabase_cassandra_1
+analyticsdatabase_kafka_1
+control_named_1
+control_dns_1
+control_control_1
+control_nodemgr_1
+webui_web_1
+webui_job_1
+config_schema_1
+config_nodemgr_1
+config_api_1
+config_devicemgr_1
+config_svcmonitor_1
+configdatabase_zookeeper_1
+configdatabase_cassandra_1
+configdatabase_rabbitmq_1
+redis_redis_1
+barbican_worker
+barbican_keystone_listener
+barbican_api
+horizon
+heat_engine
+heat_api_cfn
+heat_api
+neutron_metadata_agent
+neutron_server
+nova_novncproxy
+nova_consoleauth
+nova_conductor
+nova_scheduler
+nova_api
+placement_api
+glance_registry
+glance_api
+keystone
+rabbitmq
+mariadb
+memcached
+keepalived
+haproxy
+cron
+kolla_toolbox
+fluentd
+2018-05-14 02:20:56,508 - DEBUG - [10.87.64.147]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-14 02:20:56,646 - DEBUG - Output : 5.5.5.232/24
+10.87.64.147/25
+2018-05-14 02:21:00,362 - DEBUG - Container controller not in host 5.5.5.232, running on  host itself
+2018-05-14 02:21:00,363 - DEBUG - [5.5.5.232]: Running cmd : 
+            if [ -f /etc/lsb-release ]; then (cat /etc/lsb-release | grep DISTRIB_DESCRIPTION | cut -d "=" -f2 )
+            else
+                cat /etc/redhat-release | sed s/\(Final\)//
+            fi
+            
+2018-05-14 02:21:00,615 - DEBUG - Output : CentOS Linux release 7.4.1708 (Core)
+2018-05-15 05:18:59,458 - DEBUG - [10.87.64.157]: Running cmd : hostname
+2018-05-15 05:18:59,733 - DEBUG - Output : 5b4s30
+2018-05-15 05:18:59,733 - DEBUG - [10.87.64.157]: Running cmd : hostname -f
+2018-05-15 05:18:59,817 - DEBUG - Output : 5b4s30.local
+2018-05-15 05:18:59,817 - DEBUG - [10.87.64.157]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-15 05:18:59,901 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-15 05:18:59,901 - DEBUG - [10.87.64.157]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-15 05:19:00,001 - DEBUG - Output : 10.87.64.157/25
+5.5.5.233/24
+2018-05-15 05:19:00,001 - DEBUG - [10.87.64.158]: Running cmd : hostname
+2018-05-15 05:19:00,195 - DEBUG - Output : 5b4s39
+2018-05-15 05:19:00,195 - DEBUG - [10.87.64.158]: Running cmd : hostname -f
+2018-05-15 05:19:00,327 - DEBUG - Output : 5b4s39.local
+2018-05-15 05:19:00,327 - DEBUG - [10.87.64.158]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-15 05:19:00,410 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_vrouter-agent-dpdk_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-15 05:19:00,411 - DEBUG - [10.87.64.158]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-15 05:19:00,462 - DEBUG - Output : 10.87.64.158/25
+5.5.5.234/24
+2018-05-15 05:19:00,462 - DEBUG - [10.87.64.147]: Running cmd : hostname
+2018-05-15 05:19:00,735 - DEBUG - Output : 5b3s45
+2018-05-15 05:19:00,735 - DEBUG - [10.87.64.147]: Running cmd : hostname -f
+2018-05-15 05:19:00,817 - DEBUG - Output : 5b3s45.local
+2018-05-15 05:19:00,818 - DEBUG - [10.87.64.147]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-15 05:19:00,966 - DEBUG - Output : NAMES
+contrail_test_55JcBQ2qe
+analytics_snmp-collector_1
+analytics_topology_1
+analytics_alarm-gen_1
+analytics_api_1
+analytics_collector_1
+analytics_query-engine_1
+analytics_nodemgr_1
+analyticsdatabase_nodemgr_1
+analyticsdatabase_zookeeper_1
+analyticsdatabase_cassandra_1
+analyticsdatabase_kafka_1
+control_named_1
+control_dns_1
+control_control_1
+control_nodemgr_1
+webui_web_1
+webui_job_1
+config_schema_1
+config_nodemgr_1
+config_api_1
+config_devicemgr_1
+config_svcmonitor_1
+configdatabase_zookeeper_1
+configdatabase_cassandra_1
+configdatabase_rabbitmq_1
+redis_redis_1
+barbican_worker
+barbican_keystone_listener
+barbican_api
+horizon
+heat_engine
+heat_api_cfn
+heat_api
+neutron_metadata_agent
+neutron_server
+nova_novncproxy
+nova_consoleauth
+nova_conductor
+nova_scheduler
+nova_api
+placement_api
+glance_registry
+glance_api
+keystone
+rabbitmq
+mariadb
+memcached
+keepalived
+haproxy
+cron
+kolla_toolbox
+fluentd
+2018-05-15 05:19:00,967 - DEBUG - [10.87.64.147]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-15 05:19:01,103 - DEBUG - Output : 5.5.5.232/24
+10.87.64.147/25
+2018-05-15 05:19:05,483 - DEBUG - Container controller not in host 5.5.5.232, running on  host itself
+2018-05-15 05:19:05,483 - DEBUG - [5.5.5.232]: Running cmd : 
+            if [ -f /etc/lsb-release ]; then (cat /etc/lsb-release | grep DISTRIB_DESCRIPTION | cut -d "=" -f2 )
+            else
+                cat /etc/redhat-release | sed s/\(Final\)//
+            fi
+            
+2018-05-15 05:19:05,708 - DEBUG - Output : CentOS Linux release 7.4.1708 (Core)
+2018-05-15 11:33:29,364 - DEBUG - [10.87.64.157]: Running cmd : hostname
+2018-05-15 11:33:29,620 - DEBUG - Output : 5b4s30
+2018-05-15 11:33:29,621 - DEBUG - [10.87.64.157]: Running cmd : hostname -f
+2018-05-15 11:33:29,704 - DEBUG - Output : 5b4s30.local
+2018-05-15 11:33:29,704 - DEBUG - [10.87.64.157]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-15 11:33:29,789 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-15 11:33:29,790 - DEBUG - [10.87.64.157]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-15 11:33:29,889 - DEBUG - Output : 10.87.64.157/25
+5.5.5.233/24
+2018-05-15 11:33:29,890 - DEBUG - [10.87.64.158]: Running cmd : hostname
+2018-05-15 11:33:30,102 - DEBUG - Output : 5b4s39
+2018-05-15 11:33:30,102 - DEBUG - [10.87.64.158]: Running cmd : hostname -f
+2018-05-15 11:33:30,201 - DEBUG - Output : 5b4s39.local
+2018-05-15 11:33:30,202 - DEBUG - [10.87.64.158]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-15 11:33:30,333 - DEBUG - Output : NAMES
+vrouter_vrouter-agent_1
+vrouter_vrouter-agent-dpdk_1
+vrouter_nodemgr_1
+nova_compute
+nova_libvirt
+nova_ssh
+cron
+kolla_toolbox
+fluentd
+2018-05-15 11:33:30,334 - DEBUG - [10.87.64.158]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-15 11:33:30,432 - DEBUG - Output : 10.87.64.158/25
+5.5.5.234/24
+2018-05-15 11:33:30,433 - DEBUG - [10.87.64.147]: Running cmd : hostname
+2018-05-15 11:33:30,671 - DEBUG - Output : 5b3s45
+2018-05-15 11:33:30,671 - DEBUG - [10.87.64.147]: Running cmd : hostname -f
+2018-05-15 11:33:30,770 - DEBUG - Output : 5b3s45.local
+2018-05-15 11:33:30,771 - DEBUG - [10.87.64.147]: Running cmd : docker ps 2>/dev/null | grep -v "/pause" | awk '{print $NF}'
+2018-05-15 11:33:30,919 - DEBUG - Output : NAMES
+contrail_test_55JcBQ2qe
+analytics_snmp-collector_1
+analytics_topology_1
+analytics_alarm-gen_1
+analytics_api_1
+analytics_collector_1
+analytics_query-engine_1
+analytics_nodemgr_1
+analyticsdatabase_nodemgr_1
+analyticsdatabase_zookeeper_1
+analyticsdatabase_cassandra_1
+analyticsdatabase_kafka_1
+control_named_1
+control_dns_1
+control_control_1
+control_nodemgr_1
+webui_web_1
+webui_job_1
+config_schema_1
+config_nodemgr_1
+config_api_1
+config_devicemgr_1
+config_svcmonitor_1
+configdatabase_zookeeper_1
+configdatabase_cassandra_1
+configdatabase_rabbitmq_1
+redis_redis_1
+barbican_worker
+barbican_keystone_listener
+barbican_api
+horizon
+heat_engine
+heat_api_cfn
+heat_api
+neutron_metadata_agent
+neutron_server
+nova_novncproxy
+nova_consoleauth
+nova_conductor
+nova_scheduler
+nova_api
+placement_api
+glance_registry
+glance_api
+keystone
+rabbitmq
+mariadb
+memcached
+keepalived
+haproxy
+cron
+kolla_toolbox
+fluentd
+2018-05-15 11:33:30,920 - DEBUG - [10.87.64.147]: Running cmd : ip addr show | grep 'inet .*/.* brd ' | awk '{print $2}'
+2018-05-15 11:33:31,026 - DEBUG - Output : 5.5.5.232/24
+10.87.64.147/25
+2018-05-15 11:33:34,706 - DEBUG - Container controller not in host 5.5.5.232, running on  host itself
+2018-05-15 11:33:34,707 - DEBUG - [5.5.5.232]: Running cmd : 
+            if [ -f /etc/lsb-release ]; then (cat /etc/lsb-release | grep DISTRIB_DESCRIPTION | cut -d "=" -f2 )
+            else
+                cat /etc/redhat-release | sed s/\(Final\)//
+            fi
+            
+2018-05-15 11:33:34,995 - DEBUG - Output : CentOS Linux release 7.4.1708 (Core)

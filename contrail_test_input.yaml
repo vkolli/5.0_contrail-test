@@ -1,0 +1,82 @@
+deployment:
+    orchestrator: openstack
+
+provider_config:
+  bms:
+      domainsuffix: local
+      ntpserver: 10.84.5.100
+      ssh_pwd: c0ntrail123
+      ssh_user: root
+
+
+instances:
+  bms1:
+      ip: 10.87.64.147
+      provider: bms
+      roles:
+          analytics: null
+          analytics_database: null
+          config: null
+          config_database: null
+          control: null
+          openstack: null
+          webui: null
+  bms2:
+      ip: 10.87.64.157
+      provider: bms
+      roles:
+          openstack_compute: null
+          vrouter: null
+  bms3:
+      ip: 10.87.64.158
+      provider: bms
+      roles:
+          openstack_compute: null
+          vrouter:
+              AGENT_MODE: dpdk
+              CPU_CORE_MASK: '0xff'
+              DPDK_UIO_DRIVER: uio_pci_generic
+              HUGE_PAGES: 32000
+              PHYSICAL_INTERFACE: bond0
+
+
+contrail_configuration:
+  CONTROLLER_NODES: 5.5.5.232
+  CONTROL_DATA_NET_LIST: 5.5.5.0/24
+  VROUTER_GATEWAY: 5.5.5.254
+
+  RABBITMQ_NODE_PORT: "5673"
+
+orchestrator_configuration:
+  IPFABRIC_SERVICE_IP: 5.5.5.250
+  KEYSTONE_AUTH_ADMIN_PASSWORD: c0ntrail123
+  KEYSTONE_AUTH_HOST: 5.5.5.250
+  KEYSTONE_AUTH_URL_VERSION: /v3
+  RABBITMQ_NODE_PORT: 5673
+  VROUTER_GATEWAY: 5.5.5.254
+  external_vip: 10.87.64.250
+  internal_vip: 5.5.5.250
+  keystone:
+      password: c0ntrail123
+      version: v3
+  vrrp_id: 207
+
+
+test_configuration:
+  image_web_server: 10.84.5.120
+  stop_on_fail: true
+  mail_server:
+      port: null
+      sender: null
+      server: null
+      to: null
+  public_host: 10.84.5.120
+  use_project_scoped_token: true
+  web_server:
+      log_path: null
+      password: null
+      report_path: null
+      server: null
+      username: null
+      web_root: null
+

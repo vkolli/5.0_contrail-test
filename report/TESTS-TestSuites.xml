@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" id="0" name="serial_scripts" package="" skipped="0" tests="2" time="9834.530">
+    <testcase classname="serial_scripts.perf.test_ixia_perf.PerfIxiaTest" name="PerfIxiaTest.test_ixia_0PPS_latency_DPDK_4core_v6[perf_DPDK,perf_ixia1]" time="5472.075" />
+
+    <testcase classname="serial_scripts.perf.test_ixia_perf.PerfIxiaTest" name="PerfIxiaTest.test_ixia_PPS_jitter_KVM[perf_KVM,perf_ixia1]" time="4349.000" />
+
+  </testsuite>
+  <testsuite errors="0" failures="0" id="1" name="" package="" skipped="0" tests="0" time="2.876">
+    <properties>
+      <property name="LogsLocation" value="http://None/None/5.0-51_2018_05_15_08_49_17/logs/" />
+      <property name="Build" value="5.0-51" />
+      <property name="Report" value="http://None/None/5.0-51_2018_05_15_08_49_17/junit-noframes.html" />
+      <property name="Topology" value="&lt;br/&gt;DISTRO : CentOS Linux release 7.4.1708 Core &lt;br/&gt;SKU : ocata &lt;br/&gt;Config Nodes : [&apos;5b3s45&apos;] &lt;br/&gt;Control Nodes : [&apos;5b3s45&apos;] &lt;br/&gt;Compute Nodes : [&apos;5b4s30&apos;, &apos;5b4s39&apos;] &lt;br/&gt;Openstack Node : [&apos;5b3s45&apos;] &lt;br/&gt;WebUI Node : [&apos;5b3s45&apos;] &lt;br/&gt;Analytics Nodes : [&apos;5b3s45&apos;] &lt;br/&gt;Database Nodes : [&apos;5b3s45&apos;] &lt;br/&gt;Physical Devices : [u&apos;&apos;] &lt;br/&gt;" />
+      <property name="cores" value="{&apos;10.87.64.158&apos;: [], &apos;10.87.64.147&apos;: [], &apos;10.87.64.157&apos;: []}" />
+    </properties>
+  </testsuite>
+</testsuites>
