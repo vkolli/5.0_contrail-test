@@ -1,6 +1,5 @@
 import sys
 import os
-import subprocess
 import signal
 import re
 import struct
@@ -58,8 +57,8 @@ class PerfBase(test_v1.BaseTestCase_v1,VerifySvcMirror):
         cls.mx_password = 'Embe1mpls'
         cls.rt = {'ixia': ['2000','3000'],'spirent':['1','2'] }
         cls.family = ''
-        cls.set_cpu_cores = 4
-        cls.set_si = 1
+        #cls.set_cpu_cores = 4
+        #cls.set_si = 1
         cls.dpdk_svc_scaling = False
         cls.nova_flavor= { '2':'perf_flavor_2cpu','3':'perf_flavor_3cpu','4':'perf_flavor_4cpu', '8':'perf_flavor_8cpu'}
         #cls.image_flavor= { '1':'perf-ubuntu-1404', '2':'ubuntu-perf-multique-2', '3':'dpdk_l2fwd_sleep3','4':'ubuntu-perf-multique-4','5':'dpdk-l2-no-delay-new','6':'tiny_in-net','7':'dpdk-l3fwd-mq-2','8':'perf-ubuntu-1404-v6-2','9':'perf-ubuntu-netronome','9':'DPDK-l2fwd-virtio-new','10':'DPDK-l2fwd-SRIOV-new-1','11':'dpdk_l2fwd_sleep3-new'}
@@ -72,11 +71,11 @@ class PerfBase(test_v1.BaseTestCase_v1,VerifySvcMirror):
         cls.host_cpu = {}
         cls.host = None
         cls.cpu_intr_mask = '80'
-        cls.vm_on_numa_node = '0'
+        #cls.vm_on_numa_node = '0'
         #cls.vm_on_numa_node = '1' 
         cls.perf_si_fixtures = []
-        cls.zone = 'nova'
-        cls.creds = '--os-username=%s --os-password=%s --os-tenant-name=%s --os-auth-url=%s'%(cls.inputs.admin_username,cls.inputs.admin_password,cls.inputs.admin_tenant,cls.inputs.auth_url)
+        #cls.zone = 'nova'
+        #cls.creds = '--os-username=%s --os-password=%s --os-tenant-name=%s --os-auth-url=%s'%(cls.inputs.admin_username,cls.inputs.admin_password,cls.inputs.admin_tenant,cls.inputs.auth_url)
         cls.update_hosts()
         cls.create_availability_zone()
         cls.nova_flavor_key_delete()
@@ -157,7 +156,6 @@ class PerfBase(test_v1.BaseTestCase_v1,VerifySvcMirror):
         self.logger.info("zone       : %s"%self.perf_conf['zone'])
         self.logger.info("multiq     : %s"%self.perf_conf['multiq'])
         self.logger.info("traffic    : %s"%self.perf_conf['traffic'])
-
         return  
 
     @classmethod
@@ -238,7 +236,7 @@ class PerfBase(test_v1.BaseTestCase_v1,VerifySvcMirror):
                                connections=self.connections,
                                st_name=self.svc_tmp_name, svc_img_name=self.perf_conf['image'], service_type='firewall',
                                if_details=if_details, service_mode='in-network', svc_scaling=self.dpdk_svc_scaling,
-                               flavor=self.nova_flavor[str(self.set_cpu_cores)],
+                               flavor=self.nova_flavor[str(self.perf_conf['cores'])],
                                version=2,availability_zone_enable=True))
             if_details = { 'left' : {'vn_name' : self.vn1_fq_name},
                            'right': {'vn_name' : self.vn2_fq_name}
@@ -256,7 +254,7 @@ class PerfBase(test_v1.BaseTestCase_v1,VerifySvcMirror):
                     pt_name = get_random_name("port_tuple" + str(i))
                     svm_fixture = self.config_and_verify_vm(
                                  svm_name, image_name=self.perf_conf['image'], vns=[self.vn1_fixture, self.vn2_fixture], 
-                                 count=1, flavor=self.nova_flavor[str(self.set_cpu_cores)],
+                                 count=1, flavor=self.nova_flavor[str(self.perf_conf['cores'])],
                                  zone=self.perf_conf['zone'],node_name=host)
                     port_tuples_props = []
                     svm_pt_props = {}
@@ -672,72 +670,5 @@ class PerfBase(test_v1.BaseTestCase_v1,VerifySvcMirror):
         result = result.replace("\r","")
         self.print_results(result)
         self.print_results("\n==================================================================\n")
-        #TODO , later get these resulsts to test docker 
-        #cmd = "mkdir %s ; rm -rf %s/*; sshpass -p %s scp -o StrictHostKeyChecking=no -r %s@%s:/root/spirent/tests/%s/results %s" %(script_name, script_name, self.spirent_linux_user, self.spirent_linux_passwd, script_name, script_name)
-        #print cmd
-        #p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        #for line in p.stdout.readlines():
-        #    print line,
-        #retval = p.wait()
         return True
 
-'''
-    def run_spirent_perf_test(self,test_id,proto,family,cores,si,image_id,encap='MPLSoGRE'):
-        self.host_list = self.connections.orch.get_hosts()
-        self.disable_hosts = copy.deepcopy(self.host_list)
-        self.set_cpu_cores = cores
-        self.set_si = si
-        self.encap_type = ["MPLSoGRE"]
-        dpdk = False
-        #for host in self.host_list:
-        #    if not self.set_perf_mode(host,self.cpu_intr_mask):
-        #        self.logger.error("Not able to set perf mode ")
-        #        return False
-        self.set_nova_flavor_key_delete()
-        self.configure_mx(encap,self.mx1_handle)
-        self.configure_mx(encap,self.mx2_handle)
-        self.restart_control()
-        host_vm = self.disable_hosts.pop(-1)
-        self.add_image(image_id)
-        zone = 'nova'
-        host_vm = self.inputs.get_node_name(self.inputs.compute_names[0])
-        if image_id == 3 or  image_id == 7:
-            zone = 'dpdk-az'
-            host_ip = re.findall( r'[0-9]+(?:\.[0-9]+){3}',str(self.inputs.dpdk_data))
-            host_vm = self.inputs.get_node_name(host_ip[0])
-            dpdk=True
-        if image_id == 5 or image_id == 9 or image_id == 10 or image_id == 11:
-            zone = 'netronome-az'
-            #host_vm = self.inputs.get_node_name(host_ip[0])
-            host_vm = '5b4s25'
-        self.update_numa_node_and_intr_mask(host_vm)
-        self.update_cpus_list(host_vm,dpdk)
-        self.set_perf_mode(host_vm,self.cpu_intr_mask)
-        self.update_nova_vcpupin(host_vm)
-        self.create_availability_zone()
-        if not self.launch_svc_vms([host_vm],family,self.image_flavor[str(image_id)],zone, '2000','3000'):
-             self.logger.error("Failed to launch VMs")
-             return False
-        for host in self.host_list:
-            self.set_perf_mode_jumbo(host)
-
-        if image_id == 2 or image_id == 4 :
-            for host in self.host_list:
-                self.set_perf_mode_disable(host)
-        if image_id == 7 :
-            self.start_dpdk_mq_app()
-        import pdb; pdb.set_trace()
-        time.sleep(200)
-        if not self.run_ixia_throughput_tests(proto,test_id):
-            self.logger.error("Failed to run ixia tests")
-            return False
-        cmd = 'cat AggregateResults.csv; sleep 5 ; rm AggregateResults.csv'
-        res = self.inputs.run_cmd_on_server(self.inputs.cfgm_ip,cmd)
-        self.logger.info(res)
-        out = '\ntest: %s \nencap : %s   \ncores : %s  \nfamily: %s  \ninstances : %s \n'%(inspect.stack()[1][2],encap,cores,family,si)
-        self.print_results("test_profile: %s"%test_id)
-        self.print_results(out)
-        self.print_results(res)
-#        self.del_availability_zone()
-        return True
-'''
